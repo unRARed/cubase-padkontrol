@@ -17,8 +17,27 @@ Instructions
 - Set the MIDI in/out to the padKontrol MIDI2 port
 - Click the "Import" button and load the map file (cubase9-generic-remote.xml)
 
-The device should be working. As an optional step, I also included an icon
-map for printing onto transparency paper. The icons were sourced from Google
-Images. They are not might mine nor am I responsible for your use of them.
+The device should be working at this point. 
+
+Transport/Commands Mapping
+--------------------------
+
+Here's how I have mapped the 4x4 grid (this can be modified to taste from
+Cubase Device Setup):
+
+| 	| 	| 	| 	|
+|--------------------	|--------------------	|--------------------	|-----------------	|
+| Markers Window     	| Previous Marker    	| Next Marker        	| Insert Marker   	|
+| Workspace Number 1 	| Workspace Number 2 	| Workspace Number 3 	| Zoom to Project 	|
+| Fast Rewind        	| Rewind             	| Forward            	| Fast Forward    	|
+| Loop Region        	| Stop/Return        	| Start/Pause        	| Record          	|
+
+Getting Fancy
+-------------
+
+As an optional step, I also included an icon map for printing onto
+transparency paper. The icons were sourced from Google Images (not mine).
+
+![Icons on the PadKontrol](https://github.com/unRARed/cubase-padkontrol/blob/master/icons-preview.jpg)
 
 Happy Mixing!
