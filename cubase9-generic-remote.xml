@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<remotedescription version="1.1">
+<ctrltable name="Standard MIDI">
+<ctrl><name>PK1</name><stat>176</stat><chan>15</chan><addr>44</addr><max>127</max><flags>1</flags></ctrl>
+<ctrl><name>PK2</name><stat>176</stat><chan>15</chan><addr>45</addr><max>127</max><flags>1</flags></ctrl>
+<ctrl><name>PK3</name><stat>176</stat><chan>15</chan><addr>46</addr><max>127</max><flags>1</flags></ctrl>
+<ctrl><name>PK4</name><stat>176</stat><chan>15</chan><addr>47</addr><max>127</max><flags>1</flags></ctrl>
+<ctrl><name>PK5</name><stat>176</stat><chan>15</chan><addr>48</addr><max>127</max><flags>1</flags></ctrl>
+<ctrl><name>P6</name><stat>176</stat><chan>15</chan><addr>49</addr><max>127</max><flags>1</flags></ctrl>
+<ctrl><name>PK7</name><stat>176</stat><chan>15</chan><addr>50</addr><max>127</max><flags>1</flags></ctrl>
+<ctrl><name>PK8</name><stat>176</stat><chan>15</chan><addr>51</addr><max>127</max><flags>1</flags></ctrl>
+<ctrl><name>PK9</name><stat>176</stat><chan>15</chan><addr>52</addr><max>127</max><flags>1</flags></ctrl>
+<ctrl><name>PK10</name><stat>176</stat><chan>15</chan><addr>53</addr><max>127</max><flags>1</flags></ctrl>
+<ctrl><name>PK11</name><stat>176</stat><chan>15</chan><addr>54</addr><max>127</max><flags>1</flags></ctrl>
+<ctrl><name>PK12</name><stat>176</stat><chan>15</chan><addr>55</addr><max>127</max><flags>1</flags></ctrl>
+<ctrl><name>Pk13</name><stat>176</stat><chan>15</chan><addr>56</addr><max>127</max><flags>1</flags></ctrl>
+<ctrl><name>PK14</name><stat>176</stat><chan>15</chan><addr>57</addr><max>127</max><flags>1</flags></ctrl>
+<ctrl><name>PK15</name><stat>176</stat><chan>15</chan><addr>58</addr><max>127</max><flags>1</flags></ctrl>
+<ctrl><name>Pk16</name><stat>176</stat><chan>15</chan><addr>59</addr><max>127</max><flags>1</flags></ctrl>
+</ctrltable>
+<bank name="Transport">
+<entry ctrl="PK1">
+<value><device>Transport</device><chan>-1</chan><tag>0</tag><flags>0</flags></value>
+</entry>
+<entry ctrl="PK2">
+<value><device>Transport</device><chan>-1</chan><tag>4</tag><flags>1</flags></value>
+</entry>
+<entry ctrl="PK3">
+<value><device>Transport</device><chan>-1</chan><tag>3</tag><flags>1</flags></value>
+</entry>
+<entry ctrl="PK4">
+<command><category>Transport</category><action>Insert Marker</action><flags>1</flags></command>
+</entry>
+<entry ctrl="PK5">
+<command><category>Workspaces</category><action>Workspace 1</action><flags>1</flags></command>
+</entry>
+<entry ctrl="P6">
+<command><category>Workspaces</category><action>Workspace 2</action><flags>1</flags></command>
+</entry>
+<entry ctrl="PK7">
+<command><category>Workspaces</category><action>Workspace 3</action><flags>1</flags></command>
+</entry>
+<entry ctrl="PK8">
+<command><category>Macro</category><action>Zoom to Project</action><flags>1</flags></command>
+</entry>
+<entry ctrl="PK9">
+<value><device>Transport</device><chan>-1</chan><tag>4112</tag><flags>0</flags></value>
+</entry>
+<entry ctrl="PK10">
+<value><device>Transport</device><chan>-1</chan><tag>4018</tag><flags>0</flags></value>
+</entry>
+<entry ctrl="PK11">
+<value><device>Transport</device><chan>-1</chan><tag>4017</tag><flags>0</flags></value>
+</entry>
+<entry ctrl="PK12">
+<value><device>Transport</device><chan>-1</chan><tag>4113</tag><flags>0</flags></value>
+</entry>
+<entry ctrl="Pk13">
+<value><device>Transport</device><chan>-1</chan><tag>4022</tag><flags>256</flags></value>
+</entry>
+<entry ctrl="PK14">
+<value><device>Transport</device><chan>-1</chan><tag>4016</tag><flags>0</flags></value>
+</entry>
+<entry ctrl="PK15">
+<command><category>Transport</category><action>StartStop</action><flags>1</flags></command>
+</entry>
+<entry ctrl="Pk16">
+<value><device>Transport</device><chan>-1</chan><tag>4019</tag><flags>0</flags></value>
+</entry>
+</bank>
+</remotedescription>
